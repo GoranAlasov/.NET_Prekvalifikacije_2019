@@ -1,0 +1,1 @@
+Ovo Goran testira kao da bih napravio master branch, valjda.
