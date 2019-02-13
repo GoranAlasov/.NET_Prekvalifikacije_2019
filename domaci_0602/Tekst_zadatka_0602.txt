@@ -8,3 +8,5 @@ Graficki predstaviti sledece algoritme:
 6. Pronalazenje minimuma
 7. Racunanje sume 3 broja
 8. Racunanje sume n brojeva.
+
+.
