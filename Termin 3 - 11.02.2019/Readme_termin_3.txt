@@ -1,0 +1,1 @@
+Na ovom terminu pricali smo o osnovnoj strukturi programa u .NET okruzenju - sta je Namespace, klasa, main metoda, kako se ostavljaju komentari u kodu...Pored ovoga pricali smo o osnovnoj sintaksi C#-a: sta su i koje su sluzbene reci, sta su identifikatori, promenljive, koji su tipovi podataka, kako se deklarise promenljiva, kako se inicijalizuje promenljiva i jos ponesto. :-)

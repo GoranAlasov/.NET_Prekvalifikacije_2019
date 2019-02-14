@@ -1,0 +1,1 @@
+Na ovom predavanju smo ucili o operatortima, njihovim vrstama i primenama, redosledu izvrsavanja i slicno. Takodje, spomenuli smo osnovne stvari o objektima, klasama i metodama, uz napomenu da cemo se ovome do detalja vratiti kada na red dodje izucavanje objektno-otijentisanog programiranja.

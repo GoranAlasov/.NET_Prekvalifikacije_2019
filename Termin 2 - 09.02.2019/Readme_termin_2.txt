@@ -1,0 +1,1 @@
+Na drugom terminu predstavljena su nam pravila grafickog prikazivanja algoritama, a bilo je nekoliko vezbi vezanih za to (ima ih u materijalima, neke smo radili na casu, a neke za domaci). Nakon algoritama pozabavili smo se nekim opstim informacijama o programskom jeziku C# i o .NET okruzenju. Prosli smo i kroz proces instalacije Visual Studia 2017 Community Edition.

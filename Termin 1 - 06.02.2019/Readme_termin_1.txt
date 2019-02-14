@@ -1,0 +1,1 @@
+Na prvom terminu govorilo se o osnovama racunara, koji su delovi, kako medjusobno saradjuju i funkcionisu. Najvaznije, razgovarali smo o algoritmima kao polaznoj tacki prilikom resavanja nekog problema, to jest, programiranja. Navedene su osnovne osobine algoritma i nekoliko primera.
