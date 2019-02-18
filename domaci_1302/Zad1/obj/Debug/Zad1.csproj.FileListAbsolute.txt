@@ -1,7 +1,0 @@
-C:\Users\Alasov\Desktop\Domaci2\Zad1\bin\Debug\Zad1.exe.config
-C:\Users\Alasov\Desktop\Domaci2\Zad1\bin\Debug\Zad1.exe
-C:\Users\Alasov\Desktop\Domaci2\Zad1\bin\Debug\Zad1.pdb
-C:\Users\Alasov\Desktop\Domaci2\Zad1\obj\Debug\Zad1.csprojAssemblyReference.cache
-C:\Users\Alasov\Desktop\Domaci2\Zad1\obj\Debug\Zad1.csproj.CoreCompileInputs.cache
-C:\Users\Alasov\Desktop\Domaci2\Zad1\obj\Debug\Zad1.exe
-C:\Users\Alasov\Desktop\Domaci2\Zad1\obj\Debug\Zad1.pdb

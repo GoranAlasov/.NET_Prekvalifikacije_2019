@@ -1,6 +1,0 @@
-C:\Users\Alasov\Desktop\Domaci2\Zad3\bin\Debug\Zad3.exe.config
-C:\Users\Alasov\Desktop\Domaci2\Zad3\bin\Debug\Zad3.exe
-C:\Users\Alasov\Desktop\Domaci2\Zad3\bin\Debug\Zad3.pdb
-C:\Users\Alasov\Desktop\Domaci2\Zad3\obj\Debug\Zad3.csproj.CoreCompileInputs.cache
-C:\Users\Alasov\Desktop\Domaci2\Zad3\obj\Debug\Zad3.exe
-C:\Users\Alasov\Desktop\Domaci2\Zad3\obj\Debug\Zad3.pdb
