@@ -1,0 +1,7 @@
+C:\Users\Alasov\Desktop\Domaci2\Zad8\bin\Debug\Zad8.exe.config
+C:\Users\Alasov\Desktop\Domaci2\Zad8\bin\Debug\Zad8.exe
+C:\Users\Alasov\Desktop\Domaci2\Zad8\bin\Debug\Zad8.pdb
+C:\Users\Alasov\Desktop\Domaci2\Zad8\obj\Debug\Zad8.csprojAssemblyReference.cache
+C:\Users\Alasov\Desktop\Domaci2\Zad8\obj\Debug\Zad8.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\Desktop\Domaci2\Zad8\obj\Debug\Zad8.exe
+C:\Users\Alasov\Desktop\Domaci2\Zad8\obj\Debug\Zad8.pdb

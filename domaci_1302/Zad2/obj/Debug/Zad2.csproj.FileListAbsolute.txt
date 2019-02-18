@@ -1,0 +1,6 @@
+C:\Users\Alasov\Desktop\Domaci2\Zad2\bin\Debug\Zad2.exe.config
+C:\Users\Alasov\Desktop\Domaci2\Zad2\bin\Debug\Zad2.exe
+C:\Users\Alasov\Desktop\Domaci2\Zad2\bin\Debug\Zad2.pdb
+C:\Users\Alasov\Desktop\Domaci2\Zad2\obj\Debug\Zad2.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\Desktop\Domaci2\Zad2\obj\Debug\Zad2.exe
+C:\Users\Alasov\Desktop\Domaci2\Zad2\obj\Debug\Zad2.pdb
