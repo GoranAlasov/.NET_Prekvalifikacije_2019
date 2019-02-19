@@ -6,213 +6,208 @@ using System.Threading.Tasks;
 
 namespace CokiDomaci_1902
 {
-    class Zadatak1
+    class Task1
     {
-        public static void PromenaMesta(int promenljivaA, int promenljivaB)
+        public static void PlaceSwap(int variableA, int variableB)
         {
-            Console.WriteLine($"Mesta promenljivih na pocetku su - mesto 1: {promenljivaA} i mesto 2: {promenljivaB}.");
+            Console.WriteLine($"Mesta promenljivih na pocetku su - mesto 1: {variableA} i mesto 2: {variableB}.");
 
-            int pomocna = promenljivaA;
-            promenljivaA = promenljivaB;
-            promenljivaB = pomocna;
+            int temp = variableA;
+            variableA = variableB;
+            variableB = temp;
 
-            Console.WriteLine($"Promenljive su sad zamenile mesta - mesto 1: {promenljivaA} i mesto 2: {promenljivaB}");
+            Console.WriteLine($"Promenljive su sad zamenile mesta - mesto 1: {variableA} i mesto 2: {variableB}");
             Console.ReadKey();
         }
     }
 
-    class Zadatak2
+    class Task2
     {
-        public static void PromenaMesta2(int[] ulazniNiz)
+        public static void PlaceSwap2(int[] inputArray)
         {
             Console.Write("Ulazni niz je: ");
 
-            for (int i = 0; i < ulazniNiz.Length; i++)
+            for (int i = 0; i < inputArray.Length; i++)
             {
-                if (i == ulazniNiz.Length - 1)
+                if (i == inputArray.Length - 1)
                 {
-                    Console.Write($"{ulazniNiz[i]}.");
-                    continue;
+                    Console.Write($"{inputArray[i]}.");
                 }
 
-                Console.Write($"{ulazniNiz[i]}, ");
+                Console.Write($"{inputArray[i]}, ");
             }
             Console.WriteLine();
 
 
-            int[] izlazniNiz = new int[ulazniNiz.Length];
-            int privremena = ulazniNiz[0];
+            int[] outputArray = new int[inputArray.Length];
 
-            izlazniNiz[ulazniNiz.Length - 1] = ulazniNiz[0];
+            outputArray[inputArray.Length - 1] = inputArray[0];
 
-            for (int i = 1; i < ulazniNiz.Length; i++)
+            for (int i = 1; i < inputArray.Length; i++)
             {
-                izlazniNiz[i - 1] = ulazniNiz[i];
+                outputArray[i - 1] = inputArray[i];
             }
 
 
             Console.Write("Izlazni niz je: ");
 
-            for (int i = 0; i < ulazniNiz.Length; i++)
+            for (int i = 0; i < outputArray.Length; i++)
             {
-                if (i == ulazniNiz.Length - 1)
+                if (i == outputArray.Length - 1)
                 {
-                    Console.Write($"{ulazniNiz[i]}.");
+                    Console.Write($"{outputArray[i]}.");
                     continue;
                 }
 
-                Console.Write($"{izlazniNiz[i]}, ");
+                Console.Write($"{outputArray[i]}, ");
             }
             Console.ReadKey();
         }
     }
 
-    class Zadatak4
+    class Task4
     {
-        public static void ViseParnihIliViseNeparnih(int[] ulazniNiz)
+        public static void MoreEvenOrOdd(int[] inputArray)
         {
-            int brojacParnih = 0;
-            int brojacNeparnih = 0;
+            int evenCounter = 0;
+            int oddCounter = 0;
 
             Console.Write("Ulazni niz je: ");
 
-            for (int i = 0; i < ulazniNiz.Length; i++)
+            for (int i = 0; i < inputArray.Length; i++)
             {
-                if (i == ulazniNiz.Length - 1)
+                if (i == inputArray.Length - 1)
                 {
-                    Console.Write($"{ulazniNiz[i]}.");
+                    Console.Write($"{inputArray[i]}.");
                     continue;
                 }
 
-                Console.Write($"{ulazniNiz[i]}, ");
+                Console.Write($"{inputArray[i]}, ");
             }
             Console.WriteLine();
 
-            for (int i = 0; i < ulazniNiz.Length; i++)
+            for (int i = 0; i < inputArray.Length; i++)
             {
-                if (ulazniNiz[i] % 2 == 0)
+                if (inputArray[i] % 2 == 0)
                 {
-                    brojacParnih += 1;
+                    evenCounter += 1;
                 }
                 else
                 {
-                    brojacNeparnih += 1;
+                    oddCounter += 1;
                 }
             }
 
-            if (brojacNeparnih > brojacParnih)
+            if (oddCounter > evenCounter)
             {
                 Console.WriteLine("U nizu ima vise neparnih brojeva.");
             }
+            else if (evenCounter > oddCounter)
+            {
+
+                Console.WriteLine("U nizu ima vise parnih brojeva.");
+            }
             else
             {
-                if (brojacParnih > brojacNeparnih)
-                {
-                    Console.WriteLine("U nizu ima vise parnih brojeva.");
-                }
-                else
-                {
-                    Console.WriteLine("U nizu ima jednak broj parnih i neparnih brojeva.");
-                }
+                Console.WriteLine("U nizu ima jednak broj parnih i neparnih brojeva.");
             }
 
             Console.ReadKey();
         }
-    }
 
-    class Zadatak5
-    {
-        public static void SumaPrirodnihBrojeva(int kolikoBrojeva)
+
+        class Task5
         {
-            int zbir = (kolikoBrojeva * (kolikoBrojeva + 1)) / 2;
-
-            Console.WriteLine($"Zbir prvih {kolikoBrojeva} prirodnih brojeva je {zbir}.");
-            Console.ReadKey();
-        }
-    }
-
-    class Zadatak6
-    {
-        public static void PronalazenjeMinimuma(int[] ulazniNiz)
-        {
-            int minimum = ulazniNiz[0];
-
-            Console.Write("Ulazni niz je: ");
-
-            for (int i = 0; i < ulazniNiz.Length; i++)
+            public static void NaturalNumberSum(int numberCount)
             {
-                if (i == ulazniNiz.Length - 1)
-                {
-                    Console.WriteLine($"{ulazniNiz[i]}.");
-                    continue;
-                }
+                int sum = (numberCount * (numberCount + 1)) / 2;
 
-                Console.Write($"{ulazniNiz[i]}, ");                
-
-                if (ulazniNiz[i] < minimum)
-                {
-                    minimum = ulazniNiz[i];
-                    continue;
-                }
+                Console.WriteLine($"Zbir prvih {numberCount} prirodnih brojeva je {sum}.");
+                Console.ReadKey();
             }
-
-            Console.WriteLine("Najmanji clan niza je {0}.", minimum);
-            Console.ReadKey();
         }
-    }
 
-
-    class Zadatak7
-    {
-        public static void SumaTriBroja(double a, double b, double c)
+        class Task6
         {
-            double suma = a + b + c;
-            Console.WriteLine("Suma brojeva {0}, {1} i {2} je {3}.", a, b, c, suma);
-            Console.ReadKey();
-        }
-    }
-
-    class Zadatak8
-    {
-        public static void SumaNBrojeva(double[] ulazniNiz)
-        {
-            Console.Write("Ulazni niz je: ");
-
-            for (int i = 0; i < ulazniNiz.Length; i++)
+            public static void MinimumValue(int[] inputArray)
             {
-                if (i == ulazniNiz.Length - 1)
+                int minimum = inputArray[0];
+
+                Console.Write("Ulazni niz je: ");
+
+                for (int i = 0; i < inputArray.Length; i++)
                 {
-                    Console.Write($"{ulazniNiz[i]}.");
-                    continue;
+                    if (i == inputArray.Length - 1)
+                    {
+                        Console.WriteLine($"{inputArray[i]}.");
+                    }
+
+                    Console.Write($"{inputArray[i]}, ");
+
+                    if (inputArray[i] < minimum)
+                    {
+                        minimum = inputArray[i];
+                    }
                 }
 
-                Console.Write($"{ulazniNiz[i]}, ");
-
+                Console.WriteLine("Najmanji clan niza je {0}.", minimum);
+                Console.ReadKey();
             }
-            Console.WriteLine();
-
-            double suma = 0;
-
-            for (int i = 0; i < ulazniNiz.Length; i++)
-            {
-                suma += ulazniNiz[i];
-            }
-
-            Console.WriteLine("Suma svih clanova ulaznog niza je {0}", suma);
-            Console.ReadKey();
         }
-    }
 
-    class Program
-    {
-        static void Main(string[] args)
+
+        class Task7
         {
-            int[] mojNiz = new[] { 213, 56, 8, 15, 1, 69, 75, 18, 55 };
-            double[] mojDobuleNiz = new[] { 3.5, 56, 18.4, 4, 99.216, 3 };
-            int kolikoPrirodnihBrojeva = 17;
-            double a = 67;
-            double b = 4.57;
-            double c = 10.5;            
+            public static void Sum3Numbers(double a, double b, double c)
+            {
+                double sum = a + b + c;
+                Console.WriteLine("Suma brojeva {0}, {1} i {2} je {3}.", a, b, c, sum);
+                Console.ReadKey();
+            }
+        }
+
+        class Task8
+        {
+            public static void SumNNumbers(double[] inputArray)
+            {
+                Console.Write("Ulazni niz je: ");
+
+                for (int i = 0; i < inputArray.Length; i++)
+                {
+                    if (i == inputArray.Length - 1)
+                    {
+                        Console.Write($"{inputArray[i]}.");
+                        continue;
+                    }
+
+                    Console.Write($"{inputArray[i]}, ");
+
+                }
+                Console.WriteLine();
+
+                double sum = 0;
+
+                for (int i = 0; i < inputArray.Length; i++)
+                {
+                    sum += inputArray[i];
+                }
+
+                Console.WriteLine("Suma svih clanova ulaznog niza je {0}", sum);
+                Console.ReadKey();
+            }
+        }
+
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                int[] myArray = new[] { 1, 2, 3, 4 };
+                double[] myDoubleArray = new[] { 3.5, 56, 18.4, 4, 99.216, 3 };
+                int numberCount = 17;
+                double a = 67;
+                double b = 4.57;
+                double c = 10.5;                
+            }
         }
     }
 }
