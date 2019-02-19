@@ -14,7 +14,8 @@ namespace Zad7
             double b = 12.8;
             double c = 4;
 
-            double d = (a + b + c) / 3;
+            int brojElemenata = 3;
+            double d = (a + b + c) / brojElemenata;
 
             Console.WriteLine("Srednja vrednost brojeva {0}, {1} i {2} zaokruzena na dve decimale je {3}.", a, b, c, Math.Round(d, 2));
             Console.ReadKey();

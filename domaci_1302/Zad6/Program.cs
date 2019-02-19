@@ -14,7 +14,7 @@ namespace Zad6
             int b = 10;
             int c = 12;
 
-            int d = a * b * c;
+            long d = a * b * c; //rezultat mnozenja ce potencijalno izaci iz opsega int-a
 
             Console.WriteLine("Proizvod promenljivih a ({0}), b ({1}) i c ({2}) je {3}.", a, b, c, d);
             Console.ReadKey();
