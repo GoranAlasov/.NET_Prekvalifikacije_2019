@@ -32,6 +32,7 @@ namespace CokiDomaci_1902
                 if (i == inputArray.Length - 1)
                 {
                     Console.Write($"{inputArray[i]}.");
+                    continue;
                 }
 
                 Console.Write($"{inputArray[i]}, ");
@@ -144,9 +145,9 @@ namespace CokiDomaci_1902
 
                     Console.Write($"{inputArray[i]}, ");
 
-                    if (inputArray[i] < minimum)
+                    if (inputArray[i] < minimum)    
                     {
-                        minimum = inputArray[i];
+                        minimum = inputArray[i];                        
                     }
                 }
 
@@ -170,6 +171,7 @@ namespace CokiDomaci_1902
         {
             public static void SumNNumbers(double[] inputArray)
             {
+                double sum = 0;
                 Console.Write("Ulazni niz je: ");
 
                 for (int i = 0; i < inputArray.Length; i++)
@@ -177,20 +179,23 @@ namespace CokiDomaci_1902
                     if (i == inputArray.Length - 1)
                     {
                         Console.Write($"{inputArray[i]}.");
-                        continue;
+                    }
+                    else
+                    {
+                        Console.Write($"{inputArray[i]}, ");
                     }
 
-                    Console.Write($"{inputArray[i]}, ");
-
+                    sum += inputArray[i];                    
                 }
+
                 Console.WriteLine();
 
-                double sum = 0;
+                //double sum = 0;
 
-                for (int i = 0; i < inputArray.Length; i++)
-                {
-                    sum += inputArray[i];
-                }
+                //for (int i = 0; i < inputArray.Length; i++)
+                //{
+                //    sum += inputArray[i];
+                //}
 
                 Console.WriteLine("Suma svih clanova ulaznog niza je {0}", sum);
                 Console.ReadKey();
@@ -201,12 +206,14 @@ namespace CokiDomaci_1902
         {
             static void Main(string[] args)
             {
-                int[] myArray = new[] { 1, 2, 3, 4 };
+                int[] myArray = new[] { 1, 2, 3, 4, -5 };
                 double[] myDoubleArray = new[] { 3.5, 56, 18.4, 4, 99.216, 3 };
                 int numberCount = 17;
                 double a = 67;
                 double b = 4.57;
-                double c = 10.5;                
+                double c = 10.5;
+
+                Task8.SumNNumbers(myDoubleArray);
             }
         }
     }
