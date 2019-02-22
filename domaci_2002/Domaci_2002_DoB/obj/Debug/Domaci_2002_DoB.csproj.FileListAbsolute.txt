@@ -1,0 +1,7 @@
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\bin\Debug\Domaci_2002_DoB.exe.config
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\bin\Debug\Domaci_2002_DoB.exe
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\bin\Debug\Domaci_2002_DoB.pdb
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\obj\Debug\Domaci_2002_DoB.csprojAssemblyReference.cache
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\obj\Debug\Domaci_2002_DoB.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\obj\Debug\Domaci_2002_DoB.exe
+C:\Users\Alasov\Desktop\Domaci_2002\Domaci_2002_DoB\obj\Debug\Domaci_2002_DoB.pdb

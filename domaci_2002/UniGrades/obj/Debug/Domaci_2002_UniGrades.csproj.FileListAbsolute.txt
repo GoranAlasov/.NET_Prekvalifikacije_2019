@@ -1,0 +1,7 @@
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\bin\Debug\UniGrades.exe.config
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\bin\Debug\UniGrades.exe
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\bin\Debug\UniGrades.pdb
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\obj\Debug\Domaci_2002_UniGrades.csprojAssemblyReference.cache
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\obj\Debug\Domaci_2002_UniGrades.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\obj\Debug\UniGrades.exe
+C:\Users\Alasov\Desktop\Domaci_2002\UniGrades\obj\Debug\UniGrades.pdb

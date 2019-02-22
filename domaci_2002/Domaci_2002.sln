@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci_2002_Quarter", "Domaci_2002\Domaci_2002_Quarter.csproj", "{9829E4F4-E6BE-468D-8DC6-4838AFFE8C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci_2002_Type", "Domaci_2002_tipPromenljive\Domaci_2002_Type.csproj", "{2E45AC21-D2E3-4920-9194-9A1117F92778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci_2002_UniGrades", "UniGrades\Domaci_2002_UniGrades.csproj", "{D63AD3C6-0F64-4AC8-91CD-CD74763323F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci_2002_LeapYear", "Domaci_2002_LeapYear\Domaci_2002_LeapYear.csproj", "{DBF659C5-8BB8-41CB-B408-F6B2889FC329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci_2002_DoB", "Domaci_2002_DoB\Domaci_2002_DoB.csproj", "{A3DC8F70-FE12-409B-B929-C3B2641DC152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domaci_2002_QuadraticEquation", "Domaci_2002_QuadraticEquation\Domaci_2002_QuadraticEquation.csproj", "{2B650A2F-6740-4022-8C56-AF588510513C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9829E4F4-E6BE-468D-8DC6-4838AFFE8C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9829E4F4-E6BE-468D-8DC6-4838AFFE8C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9829E4F4-E6BE-468D-8DC6-4838AFFE8C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9829E4F4-E6BE-468D-8DC6-4838AFFE8C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E45AC21-D2E3-4920-9194-9A1117F92778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E45AC21-D2E3-4920-9194-9A1117F92778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E45AC21-D2E3-4920-9194-9A1117F92778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E45AC21-D2E3-4920-9194-9A1117F92778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63AD3C6-0F64-4AC8-91CD-CD74763323F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63AD3C6-0F64-4AC8-91CD-CD74763323F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63AD3C6-0F64-4AC8-91CD-CD74763323F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63AD3C6-0F64-4AC8-91CD-CD74763323F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF659C5-8BB8-41CB-B408-F6B2889FC329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF659C5-8BB8-41CB-B408-F6B2889FC329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF659C5-8BB8-41CB-B408-F6B2889FC329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF659C5-8BB8-41CB-B408-F6B2889FC329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3DC8F70-FE12-409B-B929-C3B2641DC152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3DC8F70-FE12-409B-B929-C3B2641DC152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3DC8F70-FE12-409B-B929-C3B2641DC152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3DC8F70-FE12-409B-B929-C3B2641DC152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B650A2F-6740-4022-8C56-AF588510513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B650A2F-6740-4022-8C56-AF588510513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B650A2F-6740-4022-8C56-AF588510513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B650A2F-6740-4022-8C56-AF588510513C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCDAC09B-3706-492B-9693-8D33024BA0C2}
+	EndGlobalSection
+EndGlobal
