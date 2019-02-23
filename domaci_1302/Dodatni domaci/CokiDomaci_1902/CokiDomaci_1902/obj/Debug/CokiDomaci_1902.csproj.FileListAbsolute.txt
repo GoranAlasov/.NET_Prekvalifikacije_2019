@@ -1,0 +1,14 @@
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\bin\Debug\CokiDomaci_1902.exe.config
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\bin\Debug\CokiDomaci_1902.exe
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\bin\Debug\CokiDomaci_1902.pdb
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.csprojAssemblyReference.cache
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.exe
+C:\Users\Alasov\Desktop\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.pdb
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\bin\Debug\CokiDomaci_1902.exe.config
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\bin\Debug\CokiDomaci_1902.exe
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\bin\Debug\CokiDomaci_1902.pdb
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.csprojAssemblyReference.cache
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.exe
+C:\Users\Alasov\.NET_Prekvalifikacije_2019\domaci_1302\Dodatni domaci\CokiDomaci_1902\CokiDomaci_1902\obj\Debug\CokiDomaci_1902.pdb

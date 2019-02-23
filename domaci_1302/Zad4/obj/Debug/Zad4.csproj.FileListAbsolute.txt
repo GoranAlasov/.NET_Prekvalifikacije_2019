@@ -1,0 +1,6 @@
+C:\Users\Alasov\Desktop\Domaci2\Zad4\bin\Debug\Zad4.exe.config
+C:\Users\Alasov\Desktop\Domaci2\Zad4\bin\Debug\Zad4.exe
+C:\Users\Alasov\Desktop\Domaci2\Zad4\bin\Debug\Zad4.pdb
+C:\Users\Alasov\Desktop\Domaci2\Zad4\obj\Debug\Zad4.csproj.CoreCompileInputs.cache
+C:\Users\Alasov\Desktop\Domaci2\Zad4\obj\Debug\Zad4.exe
+C:\Users\Alasov\Desktop\Domaci2\Zad4\obj\Debug\Zad4.pdb
