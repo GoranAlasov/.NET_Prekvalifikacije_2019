@@ -1,0 +1,56 @@
+1. Napraviti dva niza sa proizvoljnim brojem elemenata tipa integer. Napraviti treci niz koji sadrži a) presek b) uniju ova dva niza 
+
+2. Napisati potprogram koji prima niz i vraca: a) drugi niz sa obrnutim redosledom elemenata. b) sortirani niz
+
+3. Napisati funkciju koja prima niz stringova kao prvi parametar, i neki string kao drugi parametar. Funkcija treba da vrati broj koji pokazuje koliko puta se dati string pojavljuje u datom nizu.
+
+4. Napisati funkciju koja prima string i utvrduje da li su zagrade u njemu dobro uskladene. Mogu se ignorisati sva slova koja nisu zagrade "(" ili ")". Primer: ako se prosledi string "((3 + 4) * 2)" funkcija treba da vrati true jer su zagrade uskladene; sa druge strane, ako se prosledi "(3 + 4)) * 2" treba da vrati false jer druga zatvorena zagrada nema odgovarajucu otvorenu. Smislenost izraza u stringu nije bitna, bitno je samo da li su zagrade otvarane i zatvarane pravilnim redosledom.
+
+5. Napisati funkciju koja prima kao parametre niz i broj n, i rotira elemente niza ulevo za n elemenata. Drugim recima, nakon rotacije prvih n elemenata ce doci na kraj niza. Primer: ako je dat niz [1, 2, 3, 4, 5, 6, 7] i broj 4, rotirani niz ce izgledati ovako: [5, 6, 7, 1, 2, 3, 4]. Pokriti i slucajeve kada je n vece od broja elemenata niza.
+
+6.Napisati funkciju koja proverava da li je dati string palindrom, odnosno da li se isto cita unapred i unazad. Poznati primer je "Ana voli Milovana".
+
+7. Napisati funkciju koja prima string i vraca broj samoglasnika u njemu. 
+
+8. Napisati funkciju koja prima kao parametar jednodimenzionalni niz brojeva, i kao rezultat vraca dvodimenzionalni niz ciji su elementi nizovi koji sadrže 0, a cija je dužina odredena brojem u nizu koji je prosleden kao parametar. Svaki podniz može da ima razlicit broj elemenata. Primer: ako se prosledi niz [1, 4, 0, 3], funkcija treba da vrati:
+
+[
+[0],
+[0, 0, 0, 0],
+[],
+[0, 0, 0]
+]
+
+9. Napisati funkciju koja prima višedimenzionalni niz kao parametar i vraca niz sa svim elementima tog niza, koji su i sami nizovi. Primer:
+
+Ako se prosledi niz	[1, 2, [3, 4], 5, 6, 7, [8], 9]
+Funkcija treba da vrati	[[3, 4], [8]]
+
+10. Trazite od korisnika da unese broj za trenutni dan (0 je nedelja, 1 ponedeljak, ..., 6 Subota). Zatim trazite da unese koliko dana da odemo u buducnost, pa mu napisite koji ce tad biti dan u nedelji.
+npr:
+Unesite danasnji dan: 1
+Unesite koliko dana da idemo u buducnost: 31
+
+Danas je ponedeljak, a za 31 dan bice cetvrtak.
+
+11. Kristijan Zeler je otkrio algoritam za racunanje dana u nedelji za bilo koji datum. Formula je
+h = (d + (26 * (m + 1)) / 10 + g + g/4 + v/4 + 5*v) % 7
+
+* h je dan u nedelji (0: Subota, 1: Nedelja, ..., 6: Petak) - drugacije nego u zadatku gore
+* d je dan u mesecu
+* m je mesec, (3: Mart, 4: April, ..., 12: Decembar), Januar i Februar se racunaju kao 13ti i 14ti mesec prosle godine
+* v je vek
+* g je godina u veku
+
+Samo jos dve napomene, prvo deljenje u formuli (26 * (m + 1)) / 10 je celobrojno deljenje.
+Drugo, kad korisnik unese 1 ili 2 za mesec, to treba da pretvorimu u 1 u 13, 2 u 14, a godinu umanjimo za jedan.
+
+npr:
+Unesite godinu: 2015
+Unesite mesec: 1
+Unesite dan u mesecu: 25
+
+Dan u nedelji je bila Nedelja.
+
+12. U slavu onog štrumpfa koji je izgleda prvi uzviknuo "MRZM SMGLSNK!", napisati program koji radi isto bilo kojoj smislenoj recenici. Dodatno ispraviti prvo slovo u veliko, u slucaju da je bio samoglasnik pa nestao.
+
