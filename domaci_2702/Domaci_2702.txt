@@ -1,0 +1,12 @@
+Domaci je uradjen u Zadatak1,2,3.
+
+1. Napisati program koji pronalazi minimalan i maksimalan element u
+matrici. Korisniku omoguciti da unese proizvoljan broj vrsta i kolona
+(do 20), odnosno da unese sve elemente te matrice.
+Dodatno: Probajte isto i sa 3D matricom
+2. Napisati program koji omogucuje korisniku da unese proizvoljnu
+matricu (kao u zadatku 1) a potom mu tu matricu prikažite i
+omogucite da zameni bilo koje dve kolone ili bilo koje dve vrste.
+3. Napisati program koji omogucuje korisniku da uneste proizvoljnu
+kvadratnu matricu, a potom pronadite srednju vrednost i sumu obe
+dijagonale matrice.
