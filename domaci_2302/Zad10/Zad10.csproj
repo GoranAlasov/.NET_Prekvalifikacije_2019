@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15D8B08A-5DF6-462F-ABAC-076966A56626}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Zad10</RootNamespace>
+    <AssemblyName>Zad10</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zad1\Zad1.csproj">
+      <Project>{edeb8328-050c-4ab9-a715-06e698d24580}</Project>
+      <Name>Zad1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad2\Zad2.csproj">
+      <Project>{300d4122-d376-455d-8ec9-36c57d9f04a3}</Project>
+      <Name>Zad2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad3\Zad3.csproj">
+      <Project>{3d00e385-aa8e-46d5-baa0-ef5c812a855f}</Project>
+      <Name>Zad3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad4\Zad4.csproj">
+      <Project>{bf256d25-7f85-4101-903d-faec477ce8c0}</Project>
+      <Name>Zad4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad5\Zad5.csproj">
+      <Project>{1d4392bb-e0fe-4bbd-a3d3-3f7dd91b1388}</Project>
+      <Name>Zad5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad6\Zad6.csproj">
+      <Project>{6f450bb4-d680-4638-82a9-77cb21b12c6e}</Project>
+      <Name>Zad6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad7\Zad7.csproj">
+      <Project>{1c5704b0-b824-4b0a-b98b-1729ad646548}</Project>
+      <Name>Zad7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad8\Zad8.csproj">
+      <Project>{7c18b854-b374-4e77-b3b0-16f8e72816ad}</Project>
+      <Name>Zad8</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zad9\Zad9.csproj">
+      <Project>{81d70715-1155-409f-8783-496e8f5e69cf}</Project>
+      <Name>Zad9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

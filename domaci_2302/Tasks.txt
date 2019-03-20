@@ -1,0 +1,22 @@
+Svaki zadatak treba da bude poseban projekat u solution-u, sa nazivima: Zad1, Zad2...
+Ceo Solution zipovati i poslati na piskem@gmail.com. U naslov email poruke uneti Ime prezime - domaci 3. Rešenja poslati do 27.02.2019. 
+
+Napisati C# konzolnu aplikaciju koja kreira promenljive a i b i dodeljuje im vrednosti 6 i 8. Ako je zbir ovih vrednosti veci od 10, ispisati zbir promenljivih, u suprotnom ispisati njihovu razliku. Koristiti if/else.
+
+Napraviti promenljivu a sa vrednošcu 5 i promenljivu b sa vrednošcu zbira broja 9 i stringa "4". Ukoliko su obe promenljive tipa integer, ispisati poruku "Promenljive su tipa integer" i ispisati njihov zbir, u suprotnom ispisati "Promenljive nisu tipa integer". Koristiti metodu GetType i if/else.
+
+Napisati potprogram koji za proizvoljne brojeve a i b, ispisuje rezultat operacije ciji naziv je sadržan u promenljivoj operacija (može da bude 'saberi', 'oduzmi', 'pomnozi', 'podeli'). Npr. ako je vrednost promenljive operacija ‘saberi’, ispisati rezultat a + b. Koristiti switch.
+
+Napisati potprogram koji na osnovu brojne vrednosti promenljive n, ispisuje "n je neparan broj" ako je broj neparan, u suprotnom "n je paran broj".
+
+Napisati C# konzolnu aplikaciju koja za dati celi broj (integer) ispisuje poruku da li je broj jednocifren, dvocifren, ili trocifren.
+
+Napisati C# konzolnu aplikaciju koja ispisuje prvih 10 neparnih prirodnih brojeva koristeci while petlju.
+
+Napisati C# konzolnu aplikaciju koja sabira prvih 20 parnih prirodnih brojeva koristeci for petlju. Ispisati rezultat
+
+Napisati program koji odreduje procenat brojeva deljivih sa 3 od N brojeva. Korisnik unosi N, a zatim same brojeve (15-62). Koristiti neku od petlji.
+
+Unosite red po red teksta sve dok korisnik ne pritisne ESC, a onda napisite citav string (bonus: Pokusajte koristiti StringBuilder klasu)
+
+ Napisati jednostavnu konzolnu aplikaciju (simulaciju aplikacije mobilnog operatera) koja omogucava korisniku da proveri trenutno stanje kredita, megabajta za internet i besplatnih minuta. Aplikaciju napustiti izborom opcije 0. (vrednosti koje ispisujete korisniku mogu da budu nasumicne, po vašem izboru. Možete i da koristite Random klasu iz C#)
