@@ -26,6 +26,7 @@ namespace Zadatak1
 
             int[] retVal = joinedArray.Distinct().ToArray();
             return retVal;
+            
         }
 
         public static int[] Intersection(int[] array1, int[] array2)

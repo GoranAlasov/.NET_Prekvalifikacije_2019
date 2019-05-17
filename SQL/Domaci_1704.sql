@@ -1,0 +1,11 @@
+SELECT nazk 'Naziv katedre' FROM Katedra ORDER BY nazk DESC;
+SELECT CONCAT (Imen,' ',Prezn) 'Ime i prezime nastavnika' FROM Nastavnik WHERE Zvanje = 'Asistent' ORDER BY Prezn ASC;
+SELECT COUNT(*) FROM Predmet WHERE Sem = 1;
+SELECT Spr 'Sifra predmeta', Nazp 'Naziv predmeta' FROM Predmet WHERE Nazp LIKE('%e%');
+INSERT INTO Katedra VALUES ('K5', 'Automatika'); 
+commit;
+SELECT SUM(Fond) 'Ukupan fond casova', ROUND(AVG(Fond),1) 'Prosecan broj casova' FROM Predaje WHERE Idn = 'N1';
+SELECT Imen Ime, Prezn Prezime FROM Nastavnik WHERE Idk IN (SELECT Idk FROM katedra WHERE Nazk = 'Algebra') AND Idn IN (SELECT Idn FROM predaje WHERE Spr IN (SELECT Spr FROM predmet WHERE Sem = 1));
+SELECT Nazk 'Naziv katedre' FROM katedra WHERE idk NOT IN (SELECT idk FROM nastavnik);
+SELECT DISTINCT Sem FROM predmet WHERE Spr IN (SELECT Spr FROM predaje WHERE Idn IS NOT NULL) ORDER BY Sem DESC;
+UPDATE nastavnik SET Idk = 'K2' WHERE Imen LIKE ('M%');
