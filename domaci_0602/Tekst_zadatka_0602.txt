@@ -1,0 +1,12 @@
+Graficki predstaviti sledece algoritme:
+
+1. Zameniti sadrzaje dve memorijske lokacije A i B
+2. Pomeranje sadrzaja lokacija ulevo
+3. Provera sintaksne ispravnosti email adrese
+4. Prebrojati da li u nizu od 5 brojeva ima vise parnih ili neparnih (uradio sam za n brojeva)
+5. Sabiranje prvih N prirodnih brojeva
+6. Pronalazenje minimuma
+7. Racunanje sume 3 broja
+8. Racunanje sume n brojeva.
+
+.

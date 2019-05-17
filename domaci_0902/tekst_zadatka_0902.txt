@@ -1,0 +1,2 @@
+1. u nizu od n temperatura merenih svakog dana pronaci koji interval od 3 dana ima najvece temperature. Ispisati indekse prvog i poslednjeg dana u nizu. Ignorisati ukoliko dva intervala imaju istu najvecu temperaturu.
+2. fizz_buzz
