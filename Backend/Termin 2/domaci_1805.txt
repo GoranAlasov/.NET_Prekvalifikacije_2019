@@ -1,0 +1,46 @@
+Kreirati sledece REST endpointe
+
+• 1.1 endpoint koji iz liste klijenata banke uzima samo email adrese
+svih klijenata i vraca listu email adresa
+• putanja /api/clients/emails
+
+• 1.2 endpoint koji vraca listu koja sadrži imena klijenata, cije ime
+pocinje na slovo koje je prosledeno kao parametar
+• putanja /api/clients/{firstLetter}
+
+• 1.3 endpoint koji vraca listu koja sadrži imena i prezimena klijenata,
+cije ime pocinje na slovo koje je prosledeno kao parametar i cije
+prezime pocinje na slovo koje je prosledeno kao parametar
+• putanja /api/clients/firstLetters
+
+• 1.4 endpoint koji vraca listu koja sadrži imena klijenata, koja su
+sortirana u redosledu koji je prosleden kao parameter
+• putanja /api/clients/sort/{order}
+
+• 2.1 endpoint koji u listi klijenata banke, svakom klijentu, postavlja
+polje bonitet na ‘P’ (pozitivan) ako je klijent mladi od 65 godina ili
+‘N’ negativan ako je klijent stariji od 65 godina
+• putanja /api/clients/bonitet
+• u klasu BankClientModel dodati atribute datum rodenja i bonitet
+
+• 2.2 endpoint koji briše klijenta iz liste klijenta ukoliko klijent nema
+jednu od vrednosti: ime, prezime, email
+• putanja /api/clients/delete
+
+• 2.3 endpoint koji vraca ukupan broj klijenata u listi klijenata koji
+imaju manje od broja godina koje je prosledeno kao parametar
+• putanja /clients/countLess/{years}
+
+• 2.4 endpoint koji prosecan broj godina klijenata iz liste klijenata
+• putanja /api/clients/averageYears
+
+• 3.1 endpoint koji omogucuje izmenu mesta stanovanja klijenta
+• putanja /api/clients/changelocation/{clientId}
+• u klasu BankClientBean dodati atribut grad
+• novu vrednost mesta stanovanja proslediti kao FromUri
+
+• 3.2 endpoint koji vraca klijente banke koji žive u gradu koji je
+prosleden kao parametar
+• putanja /api/clients/from/{city}
+
+DODATNO - endpoint koji proverava validnost stringa prosledjene email adrese. Delimican izvor: https://en.m.wikipedia.org/wiki/Email_address
